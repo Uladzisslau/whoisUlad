@@ -175,7 +175,7 @@ img.i {
   background: #ffe9da;
   margin: 0 auto;
   padding: 0 4px;
-  line-height: 29px; }
+  line-height: 28px; }
 
 .aboat_me {
   width: 80%;
@@ -196,6 +196,9 @@ img.i {
   color: #444442;
   padding-left: 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.87); }
+
+img.fam {
+  max-width: 500px; }
 
 .aboat_me-text {
   padding-left: 5px;
