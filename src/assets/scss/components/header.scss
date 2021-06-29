@@ -28,6 +28,9 @@ header {
     border-radius: 50%;
     padding: 5px;
 }
+.logo:hover {
+    transform: scale(1.4);
+}
 .menu_header {
     display: flex;
     
@@ -37,11 +40,22 @@ header {
     color: rgb(49, 49, 49);
     text-align: center;
 }
+.menu_header-list:hover {
+    text-shadow: 1px 1px 1px rgba(148, 148, 148, 0.87);
+}
 .contact_phone  {
     display: flex;
+    align-items: center;
 }
 a.phone {
     width: 50px;
+    transition: 1s;
+}
+img.em {
+    width: 34px;
+}
+a.phone:hover {
+    transform: scale(1.2);
 }
 .header_forme {
     display: flex;
@@ -54,7 +68,6 @@ a.phone {
     font-weight:500;
     line-height: 65px;
     color: rgb(43, 43, 43);
-    background: linear-gradient(110deg, #fcfcfc 68%, #ffe9da 32%);
     border-radius: 20%;
     box-sizing: border-box;
 }
@@ -64,9 +77,6 @@ a.phone {
 img.i {
     border: 2px solid black;
     border-radius: 50%;
-}
-main {
-
 }
 .main_conteiner {
     padding: 10px 0;
@@ -98,13 +108,14 @@ main {
 }
 img.fam {
     max-width: 500px;
+    transition: 1s;
+}
+img.fam:hover {
+    transform: scale(1.4);
 }
 .aboat_me-text {
     padding-left: 5px;
     width: 80%;
-}
-.aboat_forme-img {
-
 }
 .aboat_me-autb {
     display: flex;
