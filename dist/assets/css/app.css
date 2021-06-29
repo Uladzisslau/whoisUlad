@@ -161,15 +161,15 @@ a.phone {
   line-height: 65px;
   color: #2b2b2b;
   background: linear-gradient(110deg, #fcfcfc 68%, #ffe9da 32%);
-  border-radius: 20%; }
+  border-radius: 20%;
+  box-sizing: border-box; }
 
 .header_forme-img {
-  width: 30%;
-  border: 2px solid black;
-  border-radius: 50%; }
+  width: 30%; }
 
 img.i {
-  border-radius: 48%; }
+  border: 2px solid black;
+  border-radius: 50%; }
 
 .main_conteiner {
   padding: 10px 0;
