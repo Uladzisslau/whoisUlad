@@ -2,7 +2,7 @@ header {
     padding: 40px;
     background: linear-gradient(110deg, #fcfcfc 68%, #ffe9da 32%);
     margin: 0 auto;
-
+    
 }
 .header-box {
     display: flex;
@@ -49,20 +49,23 @@ a.phone {
     justify-content: space-between;
 }
 .header_forme-text {
-    width: 50%;
+    width: 60%;
     font-size: 36px;
     font-weight:500;
     line-height: 65px;
     color: rgb(43, 43, 43);
+    background: linear-gradient(110deg, #fcfcfc 68%, #ffe9da 32%);
+    border-radius: 20%;
 }
 .header_forme-img {
     width: 30%;
+    border: 1px solid black;
     border-radius: 50%;
-    transform: translate(-50%, 0%);
 
 }
 img.i {
-    border-radius: 30%;
+    border-radius: 50%;
+    padding: 0px;
 
 }
 main {
